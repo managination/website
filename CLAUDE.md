@@ -70,12 +70,14 @@ permalink: /custom-url/
 
 The site automatically deploys to GitHub Pages when changes are pushed to the `main` branch. The GitHub Actions workflow:
 1. Checks out code
-2. Sets up Ruby 3.1.3
-3. Installs dependencies with bundler
+2. Sets up Ruby 3.1.3 with latest ruby/setup-ruby action
+3. Generates platform-specific Gemfile.lock and installs dependencies
 4. Builds Jekyll site with production environment
 5. Deploys to GitHub Pages
 
 No manual deployment steps are required.
+
+**Note:** `Gemfile.lock` is gitignored to avoid platform conflicts. GitHub Actions generates its own lockfile during builds.
 
 ## Content Guidelines
 
