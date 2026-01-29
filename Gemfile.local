@@ -1,0 +1,15 @@
+# frozen_string_literal: true
+# Local development Gemfile that works on Apple Silicon
+# Use this instead of the main Gemfile for local testing
+
+source "https://rubygems.org"
+
+gem "jekyll", "~> 4.3"
+gem "jekyll-seo-tag", "~> 2.0"
+gem "jekyll-theme-cayman", path: "."
+gem "webrick", "~> 1.8"
+
+# Development dependencies (optional for local dev)
+gem "html-proofer", "~> 5.0"  # Newer version without eventmachine
+gem "rubocop", "~> 1.0"
+gem "rubocop-performance", "~> 1.0"

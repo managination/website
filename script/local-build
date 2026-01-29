@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+echo "Building Jekyll site..."
+bundle exec jekyll build --trace
+
+echo ""
+echo "✅ Build successful! Site generated in _site/"
+echo ""
+echo "To preview: open _site/index.html"
