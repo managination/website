@@ -55,6 +55,44 @@ body {
   font-size: 17px;
 }
 
+// ============================================================================
+// HEADER LOGO
+// ============================================================================
+
+.page-header {
+  .logo-container {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .header-logo {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    animation: fadeIn 0.8s ease-out;
+
+    @media screen and (max-width: 768px) {
+      max-width: 280px;
+    }
+  }
+
+  .project-tagline {
+    margin-top: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .main-content {
   max-width: 72rem;
 
