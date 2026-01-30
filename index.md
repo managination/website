@@ -255,22 +255,6 @@ description: The Engagement Layer for the Trust Economy
   </div>
 </div>
 
-<div class="north-star">
-  <div class="north-star-badge">NORTH STAR METRIC</div>
-  <h3>Successful Verified Engagements (SVEs)</h3>
-  <p>Every time a user presents a credential to trigger a meaningful action—a reward, discount, or access—a "Trust Bridge" is crossed. Each SVE represents value for users, protection for merchants, and growth for the digital identity ecosystem.</p>
-
-  <div class="metric-insight">
-    <div class="insight-card">
-      <div class="insight-icon">📈</div>
-      <div>SVE Increase = Clear merchant value + Compelling user rewards</div>
-    </div>
-    <div class="insight-card">
-      <div class="insight-icon">📉</div>
-      <div>SVE Decrease = Signal to improve daily utility or reward value</div>
-    </div>
-  </div>
-</div>
 
 <div class="why-now">
   <h3>Why Now?</h3>
