@@ -261,3 +261,9 @@ description: The Engagement Layer for the Trust Economy
   <p>Trust has historically been expensive, manual, or impossible to achieve at scale. As the EUDI wallet becomes standard for <strong>450 million EU citizens</strong>, the need for a simple, rewarding interface is no longer a luxury but a necessity.</p>
   <p class="closing-statement">Managination provides the critical reason to open that wallet—the essential layer where the decentralized world of verifiable identity meets the physical world of daily commerce, making trust effortless and rewarding for all.</p>
 </div>
+
+---
+
+<div class="roadmap-note">
+  <strong>Learn more:</strong> Discover how our privacy-preserving technology extends to messaging with our <a href="{{ '/ppms/' | relative_url }}">Privacy-First Messaging System</a>—giving users control while enabling businesses to reach the right audience without storing personal data.
+</div>
